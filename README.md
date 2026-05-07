@@ -5,5 +5,6 @@ This repository contains my practice projects while learning **Python** through 
 - Coin Flip Experiment
 - Caesar Cipher
 - Blind Auction
+- Simple Calculator
 
 (Will be updated as i progress.)
