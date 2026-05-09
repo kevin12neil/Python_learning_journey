@@ -6,5 +6,6 @@ This repository contains my practice projects while learning **Python** through 
 - Caesar Cipher
 - Blind Auction
 - Simple Calculator
+- Blackjack game
 
 (Will be updated as i progress.)
