@@ -15,12 +15,10 @@ def ace_check(hand):
         if sum(x) <= 21: #ace can be made to have value 1
             hand[ind] = 1
     
-
 def set_dealer(hand):
     """This function sets the dealer to have over or equal to 17 value in his hand"""
     while(sum(hand)<17):
         hand.append(random.choice(cards))
-
 
 def display_victor(player_hand,dealer_hand):
     """displays the victor of the game"""
@@ -42,9 +40,6 @@ def display_victor(player_hand,dealer_hand):
     else:
         print("You WIN! Congratulations!!")
     print("=======================================================")  
-
-    
-    
 
 def check_validity(hand):
     """returns true if cards add up to or more than 21"""
@@ -106,7 +101,6 @@ def blackjack():
         ace_check(player_hand)
         display_victor(player_hand,dealer_hand)
     
-
 print("""88          88                       88        88                       88         
 88          88                       88        ""                       88         
 88          88                       88                                 88         
@@ -117,6 +111,7 @@ print("""88          88                       88        88                      
 8Y"Ybbd8"'  88 `"8bbdP"Y8  `"Ybbd8"' 88   `Y8a 88 `"8bbdP"Y8  `"Ybbd8"' 88   `Y8a  
                                               ,88                                  
                                             888P"      """)
+
 while True:
     
     decision = input("\nDo you want to play blackjack? y/n: ").lower()
