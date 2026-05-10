@@ -7,5 +7,6 @@ This repository contains my practice projects while learning **Python** through 
 - Blind Auction
 - Simple Calculator
 - Blackjack game
+- Number Guessing game
 
 (Will be updated as i progress.)
