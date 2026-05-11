@@ -9,5 +9,6 @@ This repository contains my practice projects while learning **Python** through 
 - Blackjack game
 - Number Guessing game
 - Higher Lower game
+- Coffee Machine simulator
 
 (Will be updated as i progress.)
